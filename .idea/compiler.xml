@@ -30,6 +30,8 @@
         <module name="javagrundlagen" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javagrundlagen" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
