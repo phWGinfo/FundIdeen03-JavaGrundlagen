@@ -26,7 +26,7 @@ public class DemoParallelThreads {
         public void run() {
             while(true) {
                 try {
-                    this.wait(50);
+                    Thread.sleep(50);
                     count = count + increment;
                     System.out.println(count);
                     if(Math.abs(count)>5) System.exit(0);
